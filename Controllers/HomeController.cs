@@ -11,8 +11,6 @@ namespace MvcMovie.Controllers
 {
     public class HomeController : Controller
     {
-        //Este es un comentario
-        //Este tambien lo es
         public IActionResult Index()
         {
             return View();
