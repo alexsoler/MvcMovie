@@ -7,7 +7,7 @@
 <h2>@Model.Title</h2>
 
 @await Html.PartialAsync("_AuthorPartial", @Model.AuthorName)
-@Model.PublicationDate
+@Html.DisplayFor(model => model.PublicationDate)
 
 @{
     var index = 0;
